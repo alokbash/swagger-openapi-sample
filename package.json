@@ -1,0 +1,49 @@
+{
+  "name": "swagger-openapi-sample",
+  "version": "1.0.0",
+  "description": "A Swagger UI project that displays API documentation from an OpenAPI YAML specification, optimized for Netlify deployment",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -c-1 --cors",
+    "dev": "npx http-server . -p 3000 -c-1 --cors -o",
+    "validate": "npx swagger-parser validate openapi.yaml",
+    "lint": "npx yaml-lint openapi.yaml",
+    "serve": "npx http-server . -p 8080 -c-1 --cors"
+  },
+  "keywords": [
+    "swagger",
+    "openapi",
+    "api-documentation",
+    "swagger-ui",
+    "static-site",
+    "api-docs"
+  ],
+  "author": "alokbash",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alokbash/swagger-openapi-sample.git"
+  },
+  "homepage": "https://alokbash.github.io/swagger-openapi-sample",
+  "bugs": {
+    "url": "https://github.com/alokbash/swagger-openapi-sample/issues"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "swagger-parser": "^10.0.3",
+    "yaml-lint": "^1.7.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "files": [
+    "index.html",
+    "openapi.yaml",
+    "README.md"
+  ]
+}
