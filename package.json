@@ -24,7 +24,7 @@
     "type": "git",
     "url": "https://github.com/alokbash/swagger-openapi-sample.git"
   },
-  "homepage": "https://alokbash.github.io/swagger-openapi-sample",
+  "homepage": "https://swagger-sample.netlify.app/",
   "bugs": {
     "url": "https://github.com/alokbash/swagger-openapi-sample/issues"
   },
